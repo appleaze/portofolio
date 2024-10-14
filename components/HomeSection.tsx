@@ -1,7 +1,7 @@
 "use client"; 
 
 import { useState, useEffect } from 'react';
-import { Button } from './button';
+import { Button } from './ui/button';
 
 const HomeSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -20,8 +20,8 @@ const HomeSection: React.FC = () => {
             <p className="font-sans text-2xl md:text-xl mb-6">
               A Computer Science Student, Intelligence System Concentration
             </p>
-            <Button variant="outline">
-              Tombol
+            <Button>
+              View Resume
             </Button>
           </div>
 
