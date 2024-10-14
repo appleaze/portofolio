@@ -7,19 +7,19 @@ const projects = [
   {
     title: " Loan Prediction Using Machine Learning Ensemble Method",
     description: " A Binary Classification task, utilize ensemble method, allow user to construct their own model.",
-    imageUrl: "/images/project1.jpg", // Path to your project image
+    imageUrl: "/machine-learning/HomePage.png", 
     link: "#",
   },
   {
     title: " Detecting Fake News Using Machine Learning and Explainable AI",
     description: "A Binary Classification task on fake and real news, utilize machine learning and explainable ai.",
-    imageUrl: "/images/project2.jpg", // Path to your project image
+    imageUrl: "/fake-news/SVM-Pred.png", 
     link: "#",
   },
   {
     title: "Speech Emotion Classification",
     description: "A multiclasss classifcation categorizing emotion using CNN, LSTM, and CLSTM",
-    imageUrl: "/images/project3.jpg", // Path to your project image
+    imageUrl: "/images/project3.jpg", 
     link: "#",
   },
 ];
