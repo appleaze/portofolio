@@ -14,7 +14,6 @@ const HomeSection: React.FC = () => {
     <section className="py-40">
       <div className={`transition-opacity duration-500 ${isVisible ? 'animate-fadeIn' : 'opacity-0'}`}>
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between space-y-6 md:space-y-0 md:space-x-10">
-          {/* Left: Text Section */}
           <div className="text-center md:text-left">
             <h1 className="font-georgia text-4xl md:text-6xl mb-4">Hi, I'm Theo Deannata</h1>
             <p className="font-sans text-2xl md:text-xl mb-6">

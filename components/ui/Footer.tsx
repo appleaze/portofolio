@@ -1,7 +1,6 @@
 "use client"; // Required if you're using hooks
 
 import React from "react";
-import { cn } from "@/lib/utils"; // Assuming you use this utility class for conditional styling
 
 const Footer: React.FC = () => {
   return (
