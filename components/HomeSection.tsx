@@ -1,7 +1,7 @@
 "use client"; 
 
 import { useState, useEffect } from 'react';
-import { Button } from './ui/button';
+import ViewResumeButton from './ui/ViewResumeButton';
 
 const HomeSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -11,7 +11,7 @@ const HomeSection: React.FC = () => {
   }, []);
 
   return (
-    <section className="py-40">
+    <section id="homepage" className="py-40">
       <div className={`transition-opacity duration-500 ${isVisible ? 'animate-fadeIn' : 'opacity-0'}`}>
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between space-y-6 md:space-y-0 md:space-x-10">
           <div className="text-center md:text-left">
@@ -19,9 +19,7 @@ const HomeSection: React.FC = () => {
             <p className="font-sans text-2xl md:text-xl mb-6">
               A Computer Science Student, Intelligence System Concentration
             </p>
-            <Button>
-              View Resume
-            </Button>
+            <ViewResumeButton />
           </div>
 
           <div className="w-48 h-48 md:w-64">

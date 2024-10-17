@@ -39,8 +39,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, descripti
           </CredenzaTrigger>
           <CredenzaContent className="w-full max-w-4xl p-6"> 
             <CredenzaHeader>
-              <CredenzaTitle>{title}</CredenzaTitle>
-              <CredenzaDescription>{descriptionExtended}</CredenzaDescription>
+              <CredenzaTitle className="text-2xl md:text-lg">{title}</CredenzaTitle>
+              <CredenzaDescription className="text-lg md:text-md">{descriptionExtended}</CredenzaDescription>
             </CredenzaHeader>
             <CredenzaBody>
               {/* Image Carousel */}
