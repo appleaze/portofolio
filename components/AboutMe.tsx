@@ -21,7 +21,7 @@ const AboutMe: React.FC = () => {
                 About Me
               </h2>
               <p className="text-lg leading-relaxed">
-                I'm a Computer Science Major at BINUS Unvirversity in Intelligence System Concentration. Current in 5th semester, learning Deep Learning and Computer Vision to expand my skill. I'm  also experience in Front End Web Development, UI/UX Design, and  Video Editing.     
+                I'm a Computer Science Major at BINUS Unvirversity in Intelligence System Concentration. Current in 5th semester, learning Deep Learning and Computer Vision to expand my skill. I'm also experience in Front End Web Development, UI/UX Design, and  Video Editing.     
               </p>
             </div>
 
